@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Bio - Manikandan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin:0px;
+      padding:0px;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      color: #333;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: black 10px 0px 10px;
+      max-width: 800px;
+      width: 100%;
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items:center;
+    }
+    .image-section {
+      flex: 1 1 250px;
+      text-align: center;
+      border-radius:0;
+      box-shadow: black 10px 8px 10px;
+      padding-bottom:80%;
+    }
+    .image-section img {
+      max-width: 200px;
+      border-radius:0;
+      border-color:  #007bff;
+    }
+    .info-section {
+      flex: 2 1 400px;
+    }
+    .info-section h1 {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    .info-section h2 {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .info-section p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .info-section .socials a {
+      text-decoration: none;
+      margin-right: 15px;
+      color: #007bff;
+      font-weight: bold;
+    }
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .info-section {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body style="background-color:white; padding:0px;">
+  <div class="container">
+       <div class="image-section " style=" width: 300px; height: 1000px; border;">
+      <img style="margin-top:40PX;"  src="mani1.jpg" alt="Profile Photo" />
+    <div style=""></div>
+    </div>
+    <div class="info-section">
+      <h1>Manikandan</h1>
+      <h2>Computer Science Student | Web Developer</h2>
+      <p>
+        I’m a dedicated and curious student from Coimbatore, passionate about building dynamic and responsive web applications. I enjoy solving problems and continuously improving my skills through hands-on projects and learning new technologies.
+      </p>
+      <p>
+        Skills include HTML, CSS, JavaScript, Java,c, mysql. I'm always excited to collaborate on meaningful projects and contribute to the tech community.
+      </p>
+      <div class=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manikandan - Student Bio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f1f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow:black 5px 0px 10px;
+      margin-bottom: 30px;
+    }
+    .profile-img {
+      max-width: 150px;
+      border-radius:2%;
+      border: 4px solid whitesmoke;
+      box-shadow: rgba(12px,3,4,0.1) 4px 8px rgba(12px,3,4,0.1);
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .grid .card {
+      flex: 1 1 300px;
+    }
+    footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manikandan</h1>
+    <p style="text-shadow:1px 1px 6px black;">Computer Science Student | FULL-STACK DEVELOPER (student)</p>
+  </header>
+  <nav>
+    <a href="#home" onclick="navigate('home')">Home</a>
+    <a href="#about" onclick="navigate('about')">About</a>
+    <a href="#projects" onclick="navigate('projects')">Projects</a>
+    <a href="#contact" onclick="navigate('contact')">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div id="home" class="page">
+      <div class="card" style="text-align: center;">
+        <img src="mani1.jpg" alt="Profile" class="profile-img">
+        <h2>Welcome to my personal bio website!</h2>
+        <p>I'm a passionate web developer learning full-stack development and building exciting projects.</p>
+      </div>
+    </div>
+
+    <div id="about" class="page" style="display: none;">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>I’m a computer science student from Coimbatore with interests in front-end and back-end development. I enjoy creating user-friendly websites and continuously improving my skills.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>JAVA,SPRING BOOT FrameWrok(basic)</li>
+            <li>MYSQL</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p>Bachelor of Computer Science - Coimbatore</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="page" style="display: none;">
+      <div class="card">
+        <h2>Projects</h2>
+        <div class="grid">
+          <div class="card">
+            <h4>Portfolio Website</h4>
+            <p>Built a personal portfolio using HTML, CSS, and JavaScript to showcase my bio and projects.</p>
+          </div>
+          <div class="card">
+            <h4>Task Manager</h4>
+            <p>With the rise of digital transactions and online interactions, digital fraud has become a serious concern for individuals and businesses. Cybercriminals constantly develop new tactics to steal sensitive information, commit identity theft, and exploit financial systems. Here’s how you can prevent digital fraud effectively.</p> <br>
+            <p>Link..</p>          
+            <a href="https://docs.google.com/presentation/d/1s6el-qozEsf2F2KAGKxfZS58jPZt1nfx/edit?slide=id.p2&pli=1#slide=id.p2">Preventing Digital Fraud </a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="page" style="display: none;">
+      <div class="card">
+        <h2>Contact Me</h2>
+        <form onsubmit="submitForm(event)">
+          <input type="text" placeholder="Your Name" required style="width:100%; padding:10px; margin-bottom:10px;">
+          <input type="email" placeholder="Your Email" required style="width:100%; padding:10px; margin-bottom:10px;">
+          <textarea placeholder="Your Message" required style="width:100%; padding:10px; margin-bottom:10px;"></textarea>
+          <button type="submit" style="padding:10px 20px; background:#007bff; color:white; border:none; border-radius:5px;">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Manikandan. All rights reserved.
+  </footer>
+
+  <script>
+    function navigate(section) {
+      const pages = document.querySelectorAll('.page');
+      pages.forEach(page => page.style.display = 'none');
+      document.getElementById(section).style.display = 'block';
+    }
+
+    function submitForm(event) {
+      event.preventDefault();
+      alert('Thank you for contacting me!');
+    }
+  </script>
+</body>
+</html>
+<h1 style="margin-right:80%;">socials</h1>
+  <ul>
+    <li> <a  style="margin-right:80%;"  href="https://github.com/stevekalix">GitHub</a>  <br></li>
+    <li>🔗<a  style="margin-right:76%;" href="https://www.linkedin.com/in/manikandan-s-133179364/"> LinkedIn</a> <br>
+    <li>✉<a  style="margin-right:80%;" href="manirevathi404@email.com"> Email</a>
+    <li>📞<a   style="margin-right:80%;" href="tel:+91 7094472460"> Phone</a></li>
+      </div>
+    </li>
+  </ul>
+    </div>
+  </div>
+
+  <script>
+    // Add interactivity if needed later
+    console.log("Portfolio loaded");
+  </script>
+</body>
+</html>
